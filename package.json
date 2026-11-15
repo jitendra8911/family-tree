@@ -1,0 +1,20 @@
+{
+  "name": "family-tree",
+  "private": true,
+  "version": "0.0.0",
+  "packageManager": "pnpm@12.21.0",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "pnpm --filter @family-tree/ui dev",
+    "build": "pnpm --filter @family-tree/ui build",
+    "preview": "pnpm --filter @family-tree/ui preview",
+    "lint": "pnpm --filter @family-tree/ui lint",
+    "format": "pnpm --filter @family-tree/ui format",
+    "format:check": "pnpm --filter @family-tree/ui format:check",
+    "typecheck": "pnpm --filter @family-tree/ui typecheck",
+    "test": "pnpm --filter @family-tree/ui test",
+    "test:watch": "pnpm --filter @family-tree/ui test:watch"
+  }
+}

@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Tooling
+.DS_Store
+.vite/
+*.tsbuildinfo
+
+# Editor
+.idea/
+.vscode/
+
+# Local planning notes
+planning/
